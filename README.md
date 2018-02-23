@@ -25,8 +25,13 @@ Source Information
 
 Logistic Regression results:
 <table>
-         		Test Data
-Prediction  		Benign  Malignant
+    |Prediction|	Test Data
+	|Benign	| Malignant
+Benign	|73	|0
+Malignant|	4|	23
+
+
+</table> 		Benign  Malignant
         Benign 		74  	0
         Malignant  	3 	23
 </table>
