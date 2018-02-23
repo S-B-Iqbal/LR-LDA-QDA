@@ -1,3 +1,4 @@
+
 # 1.	Introduction
 
 The project demonstrate the use of Logistic Regression, Linear Discriminant and Quadratic Discriminant Analysis for classification of Benign and Malignant cases of Breast Cancer.
@@ -23,23 +24,28 @@ Source Information
 # 3.	Summary
 
 Logistic Regression results:
+<table>
          		Test Data
 Prediction  		Benign  Malignant
         Benign 		74  	0
         Malignant  	3 	23
+</table>
 
 Linear Discriminant Analysis results:
+<table>
          		Test Data
 Prediction  		Benign  Malignant
         Benign 		76  	2
         Malignant  	1 	21
+</table>
 
 Quadratic Discriminant Analysis results:
+<table>
          		Test Data
 Prediction  		Benign  Malignant
         Benign 		73  	0
         Malignant  	4 	23
-
+</table>
 It is to be noted that having a <b>False Negative</b> i.e., prediction indicates benign whereas actually the Breast Cancer is malignant can delay a woman’s diagnosis, which requires more aggressive and expansive treatment. In case of Logistic Regression and Quadratic Discriminant analysis, the false negative is given to be 0. While, in case of LDA, the value is statistically not significant i.e., lower than 5%. 
 In case of <b>False Positive</b> i.e., prediction indicates Malignant whereas actually the Breast Cancer is Benign can add financial burden because of overdagnosis and include emotional anxieties on patients and their families. All the three methods have an error rate of less than 5%. 
 
